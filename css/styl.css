@@ -173,3 +173,9 @@
     top: 21px;
     left: 8px;
   }
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
