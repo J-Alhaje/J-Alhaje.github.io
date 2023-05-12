@@ -13,3 +13,8 @@ $(document).ready(function () {
       $('.animated-icon3').toggleClass('open');
     });
   });
+
+
+setTimeout(function (){
+  console.log()
+},1000("timer in seconden"))
