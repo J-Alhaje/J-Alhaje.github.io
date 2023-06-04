@@ -1,3 +1,9 @@
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: proximity;
+  background-color: #000000;
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
