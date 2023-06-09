@@ -13,7 +13,7 @@ html{
   color: rgb(248, 248, 248);
 }
 .main-bg{
-  background-color: #000000;
+  background-color: black;
 }
 .underline:hover{
   border-bottom: 4px solid #ff0000;
