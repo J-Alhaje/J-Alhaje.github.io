@@ -15,6 +15,9 @@ html{
 .main-bg{
   background-color: black;
 }
+.main-bg .changeColor{
+  background-color : #ff0000;
+}
 .underline:hover{
   border-bottom: 4px solid #ff0000;
 }
