@@ -17,50 +17,60 @@
 <body>
     <header>
         <!-- place navbar here -->
-        <nav class="navbar navbar-expand-md background-color">
+
+        <nav class="navbar navbar-expand-lg navbar-light background-color ">
             <div class="container">
-                <!-- <a class="navbar-brand" href="/index.html">
-                    <img src="./img/logo.png" width="100" alt="logo" class="img-fluid border mx-auto d-block">
-                </a> -->
-                <ul class="nav d-flex justify-content-starts">
-                    <li class="nav-item ">
-                        <a class="nav-link active text-light  fs-2" href="index.html"><span
-                                class="text-warning">J</span>amil
-                            <span class="text-warning">A</span>lhaje</a>
-                    </li>
-                </ul>
-                <ul class="nav d-flex justify-content-end">
-                    <li class="nav-item underline">
-                        <a class="nav-link active text-light  fs-4" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item underline">
-                        <a class="nav-link text-light fs-4" href="#About">About-me</a>
-                    </li>
-                    <li class="nav-item underline">
-                        <a class="nav-link text-light  fs-4" href="#Contact">Contact</a>
-                    </li>
-                    <li class="nav-item underline">
-                        <a class="nav-link abled text-light  fs-4" href="plan.html">Mijn LOB</a>
-                    </li>
-                </ul>
+                <a class="nav-link active text-light  fs-2" href="index.html"><span class="text-warning">J</span>amil
+                    <span class="text-warning">A</span>lhaje</a>
+                <button class="navbar-toggler  border border-light hidden-lg-up" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0"></ul>
+                    <ul class="nav d-flex justify-content-end">
+                        <li class="nav-item underline">
+                            <a class="nav-link active text-light  fs-4" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item underline">
+                            <a class="nav-link text-light fs-4" href="#About">About-me</a>
+                        </li>
+                        <li class="nav-item underline">
+                            <a class="nav-link text-light  fs-4" href="#Contact">Contact</a>
+                        </li>
+                        <li class="nav-item underline">
+                            <a class="nav-link abled text-light  fs-4" href="plan.html">Mijn LOB</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
     <main>
-        <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-6">
-                        <img src="img/Untitled-1.png" alt="" srcset="">
-                    </div>
+
+        <div class="container-fluid my-1">
+            <div class="row main-bg">
+                <div class="col-12 col-md-6 col-lg-6 d-flex p-5 justify-content-start">
+                    <img src="img/darkblue.png" class="img-fluid img-border" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+
                 </div>
             </div>
+        </div>
         </div>
 
         <!-- Add your main content here -->
 
     </main>
     <footer>
+        <div class="container-fluid background-color">
+            <div class="row">
+                <div class="col-12 col-md-12 col-12">
+                    <h1 id="Contact" class="text-warning text-center">contact</h1>
+                </div>
+            </div>
+        </div>
+
         <!-- place footer here -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
