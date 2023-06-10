@@ -1,3 +1,11 @@
 @import url(styl.css);
 @import url(bootstrap.css);
-@import url(all.min.css)
+@import url(all.min.css);
+
+
+.underline-section{
+    display: block;
+    width: 170px;
+    margin: auto;
+    border-bottom: 5px solid #ff0000;
+}

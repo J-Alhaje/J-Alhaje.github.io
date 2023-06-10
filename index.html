@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="./img/user.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Bootstrap CSS v5.2.1 -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,10 +16,50 @@
 </head>
 
 <body>
+    <div class="container-fluid background-color">
+        <div class="row">
+            <div class="navbar navbar-expand-lg my-3">
+                <a class="navbar-brand ms-3" href="index.html">
+                    <a class="nav-link active text-light  fs-2" href="index.html"><span
+                            class="text-warning">J</span>amil
+                        <span class="text-warning">A</span>lhaje</a>
+                </a>
+                <button class="navbar-toggler bg-danger me-5" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-light fs-4" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close text-danger" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body justify-content-end">
+                        <ul class="navbar-nav me-5">
+                            <li class="nav-item underline">
+                                <a href="index.html" class="nav-link mx-2 fw-bold fs-3 text-light">Home</a>
+                            </li>
+                            <li class="nav-item underline">
+                                <a href="about-us.html" class="nav-link mx-2 fs-3  fw-bold text-light">About us </a>
+                            </li>
+                            <li class="nav-item underline">
+                                <a href="vacatures.html" class="nav-link mx-2 fs-3 fw-bold text-light">Vacatures</a>
+                            </li>
+
+                            <li class="nav-item underline">
+                                <a href="#contact" id="#contact" class="nav-link fs-3 text-light fw-bold">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <header>
         <!-- place navbar here -->
 
-        <nav class="navbar navbar-expand-lg navbar-light background-color ">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light background-color ">
             <div class="container">
                 <a class="nav-link active text-light  fs-2" href="index.html"><span class="text-warning">J</span>amil
                     <span class="text-warning">A</span>lhaje</a>
@@ -32,7 +73,7 @@
                             <a class="nav-link active text-light  fs-4" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item underline">
-                            <a class="nav-link text-light fs-4" href="#About">About-me</a>
+                            <a class="nav-link text-light fs-4" href="#projects">Projects</a>
                         </li>
                         <li class="nav-item underline">
                             <a class="nav-link text-light  fs-4" href="#Contact">Contact</a>
@@ -43,24 +84,24 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
     </header>
     <main>
-
+        <!-- Add your main content here -->
         <div class="container-fluid my-1">
             <div class="row main-bg">
-                <div class="col-sm-6 col-md-6 col-lg-6 d-flex p-5 justify-content-center">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex p-5 justify-content-center">
                     <img src="img/darkblue.png" class="img-fluid img-border" alt="">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 d-flex flex-column ml-2 p-5 justify-content-start ">
-                    <p class="animate__animated animate__bounce animate__delay-1s  text-light fs-1"><span
-                            class="text-danger">Hello</span>,<span class="text-primary"> Ik
+                    <p class=" text-light fs-1 animate__heartBeat "><span class="text-danger">Hello</span>,<span
+                            class="text-primary"> Ik
                             ben
                             Jamil
                             Alhaje</span> full
                         stack developer en
                         Web ontwerper</p>
-                    <p class="text- d-flex justify-content-start text-light fs-5">With Knowledge in web
+                    <p class="text- d-flex justify-content-start fs-5 text-secondary">With Knowledge in web
                         development and marketing, I offer the
                         best projects resulting in heigh
                         quality.</p>
@@ -77,30 +118,29 @@
                 </div>
             </div>
         </div>
-        </div>
-
-        <!-- Add your main content here -->
-
     </main>
+    <section>
+        <div class="container-fluid ">
+        </div>
+    </section>
     <footer>
+        <!-- place footer here -->
         <div class="container-fluid background-color">
             <div class="row">
                 <div class="col-12 col-md-12 col-12">
-                    <h1 id="Contact" class="text-warning text-center">contact</h1>
+                    <h1 id="contact" class="text-warning text-center">contact</h1>
                 </div>
             </div>
         </div>
 
-        <!-- place footer here -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-        </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <script src="js/all.min.js"></script>
 </body>

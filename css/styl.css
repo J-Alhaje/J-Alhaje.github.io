@@ -22,6 +22,9 @@ html{
   border-bottom: 4px solid #ff0000;
 }
 
+.bg-black{
+  background: black;
+}
 .img-border{
   border-radius: 40px;
   border-color: #ff0000;
