@@ -3,41 +3,9 @@
 @import url(all.min.css);
 @import url(animation.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-
-.waviy {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(255, 11, 11, 0.2));
-    font-size: 40px;
-  }
-  .waviy span {
-    font-family: 'Alfa Slab One', cursive;
-    position: relative;
-    display: inline-block;
-    color: #ffc107;
-    text-transform: uppercase;
-    animation: waviy 1s infinite;
-    animation-delay: calc(.1s * var(--i));
-    
-  }
-  @keyframes waviy {
-    0%,40%,100% {
-      transform: translateY(0)
-    }
-    20% {
-      transform: translateY(-20px)
-    }
-  }
 
 
 
 
-.underline-section{
-    display: block;
-    width: 170px;
-    margin: auto;
-    border-bottom: 5px solid #ff0000;
-}
+
+

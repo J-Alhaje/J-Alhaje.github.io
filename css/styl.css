@@ -40,6 +40,12 @@ html{
   border-bottom: 5px solid #ff0000;
 }
 
+.underline-section{
+  display: block;
+  width: 170px;
+  margin: auto;
+  border-bottom: 5px solid #ff0000;
+}
 
 .bg-image{
   background-position: center;
