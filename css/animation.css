@@ -14,7 +14,7 @@
     display: inline-block;
     color: #ffc107;
     text-transform: uppercase;
-    animation: waviy 1s infinite;
+    animation: waviy 1s forwards;
     animation-delay: calc(.1s * var(--i));
     
   }
