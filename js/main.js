@@ -13,6 +13,11 @@ const vueSkills = [
 
 // Uitvoer van Vue.js vaardigheden
 console.log("Mijn Vue.js vaardigheden omvatten:");
-vueSkills.forEach((skill, index) => {
-  console.log(`${index + 1}. ${skill}`);
-});
+// vueSkills.forEach((skill, index) => {
+//   console.log(`${index + 1}. ${skill}`);
+// });
+
+for (let i = 0; i < vueSkills.length; i++) {
+  const elm = vueSkills[i];
+  console.log(`${i}-${elm}`);
+}
